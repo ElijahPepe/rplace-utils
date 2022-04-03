@@ -33,7 +33,7 @@ if (window.top !== window.self) {
   window.addEventListener(
     'load',
     () => {
-      const vandals = ["Crazy_Ate_", "Mineymma", "-Mopp", "d-faulty", "Benavoe", "Viewer23", "TheBentoVixen", "HermitCrabParty", "ColoradaStateSupreme", "Loose_Salamanders", "IronyIsFunny234", "CheshireCorner", "Melyndrome", "Available_Humor_73", "ZryptoYT", "veryshortmidget", "DiscordMLP2", "Neeebel", "Bugborger", "Middle_Drink9562", "Infamous_Sun_9854", "DisasterNew9425", "EggCodex", "ICantWinSorry", "BungleFunker", "givememorebeans", "organicgobbler", "livesincondemnation", "PluralPanFry", "eybers_"]
+      const vandals = ["CumOceanic64439", "CumIseli74672", "CumAyies58473", "CumSainte31277", "CumBlack62576", "CumCompetent", "Crazy_Ate_", "Mineymma", "-Mopp", "d-faulty", "Benavoe", "Viewer23", "TheBentoVixen", "HermitCrabParty", "ColoradaStateSupreme", "Loose_Salamanders", "IronyIsFunny234", "CheshireCorner", "Melyndrome", "Available_Humor_73", "ZryptoYT", "veryshortmidget", "DiscordMLP2", "Neeebel", "Bugborger", "Middle_Drink9562", "Infamous_Sun_9854", "DisasterNew9425", "EggCodex", "ICantWinSorry", "BungleFunker", "givememorebeans", "organicgobbler", "livesincondemnation", "PluralPanFry", "eybers_"]
 
       const button = document
         .getElementsByTagName('mona-lisa-embed')[0]
