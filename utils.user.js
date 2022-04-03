@@ -8,9 +8,7 @@
 // ==/UserScript==
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
-      document.onkeydown = keydown; 
-      
-      document.getElementsByTagName("mona-lisa-embed")[0]
+      document.onkeydown = keydown;
 
       function keydown (evt) {
         if (!evt) evt = event;
