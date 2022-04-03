@@ -23,7 +23,7 @@ if (window.top !== window.self) {
     }, false);
     window.addEventListener('load', () => {
       // TODO: Not this
-      const vandals = ["Benavoe", "Viewer23", "TheBentoVixen", "HermitCrabParty", "ColoradaStateSupreme", "Loose_Salamanders", "IronyIsFunny234", "CheshireCorner", "Melyndrome", "Available_Humor_73", "ZryptoYT", "veryshortmidget", "DiscordMLP2", "Neeebel", "Bugborger", "Middle_Drink9562", "Infamous_Sun_9854", "DisasterNew9425", "EggCodex", "ICantWinSorry", "BungleFunker", "givememorebeans", "organicgobbler", "livesincondemnation", "PluralPanFry", "boardinglyf", "eybers_"];
+      const vandals = ["Crazy_Ate_", "Mineymma", "-Mopp", "d-faulty", "Benavoe", "Viewer23", "TheBentoVixen", "HermitCrabParty", "ColoradaStateSupreme", "Loose_Salamanders", "IronyIsFunny234", "CheshireCorner", "Melyndrome", "Available_Humor_73", "ZryptoYT", "veryshortmidget", "DiscordMLP2", "Neeebel", "Bugborger", "Middle_Drink9562", "Infamous_Sun_9854", "DisasterNew9425", "EggCodex", "ICantWinSorry", "BungleFunker", "givememorebeans", "organicgobbler", "livesincondemnation", "PluralPanFry", "boardinglyf", "eybers_"];
 
       const button = document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-camera")[0].shadowRoot.children[0].getElementsByClassName("profile-button")[0]
 
