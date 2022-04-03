@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         /r/place utilities
 // @namespace    https://github.com/ElijahPepe/rplace-utils
-// @version      1.0.1
+// @version      1.0.2
 // @description  Various /r/place utilities
 // @author       ElijahPepe
 // @match        https://hot-potato.reddit.com/embed*
@@ -33,14 +33,7 @@ if (window.top !== window.self) {
   window.addEventListener(
     'load',
     () => {
-      let vandals
-      fetch('https://raw.githubusercontent.com/ElijahPepe/rplace-vandals/main/vandals.txt')
-        .then(function (response) {
-          return response.text()
-        })
-        .then(function (html) {
-          vandals = html.split(/\n|\r/g)
-        })
+      const vandals = ["Crazy_Ate_", "Mineymma", "-Mopp", "d-faulty", "Benavoe", "Viewer23", "TheBentoVixen", "HermitCrabParty", "ColoradaStateSupreme", "Loose_Salamanders", "IronyIsFunny234", "CheshireCorner", "Melyndrome", "Available_Humor_73", "ZryptoYT", "veryshortmidget", "DiscordMLP2", "Neeebel", "Bugborger", "Middle_Drink9562", "Infamous_Sun_9854", "DisasterNew9425", "EggCodex", "ICantWinSorry", "BungleFunker", "givememorebeans", "organicgobbler", "livesincondemnation", "PluralPanFry", "eybers_"]
 
       const button = document
         .getElementsByTagName('mona-lisa-embed')[0]
