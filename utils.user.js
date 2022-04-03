@@ -33,13 +33,13 @@ if (window.top !== window.self) {
   window.addEventListener(
     'load',
     () => {
-      let array
+      let vandals
       fetch('https://raw.githubusercontent.com/ElijahPepe/rplace-vandals/main/vandals.txt')
         .then(function (response) {
           return response.text()
         })
         .then(function (html) {
-          array = html.split(/\n|\r/g)
+          vandals = html.split(/\n|\r/g)
         })
 
       const button = document
