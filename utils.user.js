@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         /r/place utilities
 // @namespace    https://github.com/ElijahPepe/rplace-utils
-// @version      1.0.2
+// @version      1.0.3
 // @description  Various /r/place utilities
 // @author       ElijahPepe
 // @match        https://hot-potato.reddit.com/embed*
@@ -33,7 +33,7 @@ if (window.top !== window.self) {
   window.addEventListener(
     'load',
     () => {
-      const vandals = ["CumOceanic64439", "CumIseli74672", "CumAyies58473", "CumSainte31277", "CumBlack62576", "CumCompetent", "Crazy_Ate_", "Mineymma", "-Mopp", "d-faulty", "Benavoe", "Viewer23", "TheBentoVixen", "HermitCrabParty", "ColoradaStateSupreme", "Loose_Salamanders", "IronyIsFunny234", "CheshireCorner", "Melyndrome", "Available_Humor_73", "ZryptoYT", "veryshortmidget", "DiscordMLP2", "Neeebel", "Bugborger", "Middle_Drink9562", "Infamous_Sun_9854", "DisasterNew9425", "EggCodex", "ICantWinSorry", "BungleFunker", "givememorebeans", "organicgobbler", "livesincondemnation", "PluralPanFry", "eybers_"]
+      const vandals = ["saitsarp", "benadryl7664", "Large_Ad8922", "Empty-Investigator43", "makeSpaceCadet", "False-Gift-2556", "CumOceanic64439", "CumIseli74672", "CumAyies58473", "CumSainte31277", "CumBlack62576", "CumCompetent", "Crazy_Ate_", "Mineymma", "-Mopp", "d-faulty", "Benavoe", "Viewer23", "TheBentoVixen", "HermitCrabParty", "ColoradaStateSupreme", "Loose_Salamanders", "IronyIsFunny234", "CheshireCorner", "Melyndrome", "Available_Humor_73", "ZryptoYT", "veryshortmidget", "DiscordMLP2", "Neeebel", "Bugborger", "Middle_Drink9562", "Infamous_Sun_9854", "DisasterNew9425", "EggCodex", "ICantWinSorry", "BungleFunker", "givememorebeans", "organicgobbler", "livesincondemnation", "PluralPanFry", "eybers_"]
 
       const button = document
         .getElementsByTagName('mona-lisa-embed')[0]
