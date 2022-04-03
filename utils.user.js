@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         /r/place utilities
 // @namespace    https://github.com/ElijahPepe/rplace-utils
-// @version      1.0.0
+// @version      1.0.1
 // @description  Various /r/place utilities
 // @author       ElijahPepe
 // @match        https://hot-potato.reddit.com/embed*
